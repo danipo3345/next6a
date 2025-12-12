@@ -16,7 +16,7 @@ export default function Noticia() {
     };
 
     try {
-      const response = await fetch("https://apidaniel.vercel.app/postnoticias", {
+      const response = await fetch("https://apidaniell.vercel.app/postnoticias", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
